@@ -13,11 +13,11 @@ Requirements and Notes
 Create debian packages with:
 
     root@client:~# apt-get install devscripts debhelper dpatch cdbs
-    root@client:/tmp# mco plugin package /home/me/clone/mcollective-lxc-agent mcollective-lxc-common
+    root@client:/tmp# mco plugin package /home/me/clone/mcollective-lxc-agent
 
 On LXC hosts:
 
-    root@lxchost1:~# apt-get install lxc lxc-dev build-essential mcollective-lxc-agent
+    root@lxchost1:~# apt-get install lxc lxc-dev build-essential mcollective-lxc-agent mcollective-lxc-common
     root@lxchost1:~# gem install ruby-lxc
 
 On clients: 
