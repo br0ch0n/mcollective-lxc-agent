@@ -17,7 +17,7 @@ Create debian packages with:
 
 On LXC hosts:
 
-    root@lxchost1:~# apt-get install lxc lxc-dev build-essential mcollective-lxc-agent mcollective-lxc-common
+    root@lxchost1:~# apt-get install lxc lxc-dev build-essential ruby-dev mcollective-lxc-agent mcollective-lxc-common
     root@lxchost1:~# gem install ruby-lxc
 
 On clients: 
@@ -106,7 +106,7 @@ Examples
  
 
 
-lxc (full descripton)
+lxc (full description)
 =====================
 
 Create and manage LXC containers
