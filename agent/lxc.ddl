@@ -9,17 +9,6 @@ metadata	:name		=> "lxc",
 action "list", :description => "List all containers" do
 	display :always
 
-	output	:name,
-		:description => "Container name",
-		:display_as  => "Name"
-
-	output	:ip,
-		:description => "Container IP address",
-		:display_as  => "IP"
-
-	output	:state,
-		:description => "Container state",
-		:display_as  => "State"
 end
 
 action "start", :description => "Start a named container" do
