@@ -5,7 +5,8 @@ MCollective SimpleRPC Agent for managing LXC containers on multiple hosts.
 
 * Being developed on Ubuntu Trusty (14.04).
 * The goal is to use the [LXC API Ruby Bindings](https://github.com/lxc/ruby-lxc) as much as possible.
-* Inspiration taken from [https://github.com/nadeau/mcollective-plugins](https://github.com/nadeau/mcollective-plugins) and [https://github.com/ranjib/lxc-cookbook](https://github.com/ranjib/lxc-cookbook)
+* Inspiration taken from [https://github.com/nadeau/mcollective-plugins](https://github.com/nadeau/mcollective-plugins) and [https://github.com/ranjib/lxc-cookbook](https://github.com/ranjib/lxc-cookbook).
+* For a nifty web frontend, check out sister project [Legion of Doom](https://github.com/br0ch0n/legion-of-doom).
 
 Requirements and Notes
 ----------------------
