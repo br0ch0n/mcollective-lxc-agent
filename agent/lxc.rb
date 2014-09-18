@@ -10,6 +10,10 @@ module MCollective
 					reply[x][:name]=cnt.name
 					reply[x][:state]=cnt.state
 					reply[x][:ip]=cnt.ip_addresses
+					if cnt.state == :running 
+						reply[x][:memused]=cnt.cgroup_item('memory.usage_in_bytes')
+						reply[x][:memlimit]=cnt.cgroup_item('memory.limit_in_bytes')
+					end
 				end
 			end
 			action "start" do
