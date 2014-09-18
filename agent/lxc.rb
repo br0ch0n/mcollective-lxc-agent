@@ -13,6 +13,7 @@ module MCollective
 					if cnt.state == :running 
 						reply[x][:memused]=cnt.cgroup_item('memory.usage_in_bytes')
 						reply[x][:memlimit]=cnt.cgroup_item('memory.limit_in_bytes')
+						reply[x][:cpushares]=cnt.cgroup_item('cpu.shares')
 					end
 				end
 			end
