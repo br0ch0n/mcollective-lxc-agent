@@ -2,7 +2,7 @@ metadata	:name		=> "lxc",
 		:description	=> "Create and manage LXC containers",
 		:author		=> "Brandon Rochon",
 		:license	=> "MIT",
-		:version	=> "0.2",
+		:version	=> "0.3",
 		:url		=> "https://github.com/br0ch0n/mcollective-lxc-agent",
 		:timeout	=> 1024
 
