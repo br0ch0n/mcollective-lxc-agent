@@ -18,8 +18,10 @@ module MCollective
 				end
 			end
 			action "start" do
+				#for sorrow, shelling out here to try to work around zombie issue #2
+				run("/usr/bin/lxc-start -d -n #{request[:name]}")
 				cnt=LXC::Container.new(request[:name])
-				cnt.start
+				#cnt.start
 				reply[:state]=cnt.state
 				reply[:name]=cnt.name
 			end
